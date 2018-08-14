@@ -1,0 +1,40 @@
+#big-div {
+    width: 600px;
+    height: 600px;
+    border: #000 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#small-div {
+    width: 200px;
+    height: 200px;
+    border: #06C 1px solid;
+    /* position fixed is always relative to the viewport regardless of relative parents */
+    position: fixed;
+    /* position: absolute; */
+    /* this is the absolute position of the item */
+    /* bottom: 0%;
+    right: 0%; */
+    /* move the box in the middle of the screen */
+    top: 50%;
+    left: 50%;
+    /* good approach to put something in the middle when using absolute or fixed positioning. Calculates 50% of the width and 50% of the height, and moves the box along the X and Y axis accordingly */
+    transform: translate(-50%, -50%);
+    background-color: #06C;
+    /* allows for layering, you can define it to 0-999, used in Tinder for case use */
+    z-index: 2;
+}
+
+#medium-div {
+    width: 200px;
+    height: 200px;
+    border: #f00 1px solid;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -40%);
+    background-color: #f00;
+    z-index: 1;
+}

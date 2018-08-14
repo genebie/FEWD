@@ -1,0 +1,20 @@
+#div1 {
+    width: 300px;
+    height: 150px;
+    border: #06C 2px solid;
+}
+
+#div2 {
+    width: 300px;
+    height: 150px;
+    border: #06C 2px solid;
+    margin-left: 150px;
+    
+}
+
+#div3 {
+    width: 300px;
+    height: 150px;
+    border: #06C 2px solid;
+    margin-left: 300px;
+}

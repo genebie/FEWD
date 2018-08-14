@@ -1,0 +1,29 @@
+.mirror-container {
+    height: 700px;
+    width: 700px;
+    border: #06C 2px solid;
+    position: relative;
+}
+
+.mirror-boxes {
+    border: #06C 2px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+#mirror-2 {
+    height: 500px;
+    width: 500px;
+}
+
+#box3 {
+    height: 100px;
+    width: 100px;
+    border: #06C 2px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}

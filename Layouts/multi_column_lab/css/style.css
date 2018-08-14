@@ -1,0 +1,57 @@
+body {
+  font-family: 'Questrial', sans-serif;
+  color: #D16121;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2 {
+  font-family: 'Chicle', cursive;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+}
+
+header, footer {
+  padding: 5px 20px;
+  border: 2px solid #D16121;
+  border-radius: 4px;
+  background: #D16121;
+  color: #fff;
+}
+
+aside img {
+	max-width: 100%;
+}
+
+
+
+/*----------------------------------------------
+  C O L U M N   L A Y O U T
+------------------------------------------------*/
+
+/*
+INSTRUCTIONS:
+STEPS 1 & 2 are in the index.html file
+*/
+
+/* 3. Add display: flex; to your flex container */
+
+/* 4. Give each flex item a width in percentages */
+
+
+/* Flex container */
+.content {
+  background-color: #FCFBE3;
+  padding: 5px 20px;
+  margin: 10px 0;
+  display: flex;
+}
+
+/* Flex item (left column) */
+section {
+  width: 75%
+}
+
+/* Flex item (right column) */
+aside {
+  width: 25%;
+}
